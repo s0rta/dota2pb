@@ -20,10 +20,5 @@ client.on('message', (msg) => {
     }
 })
 
-function findRecentPatch() {
-    return new Promise(resolve => {
-
-    })
-}
 
 client.login(process.env.BOT_TOKEN)
