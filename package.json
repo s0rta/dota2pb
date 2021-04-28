@@ -4,5 +4,8 @@
     "description": "Bot to update players of dota 2 when patches are dropped, particularly ones that are not seen on the steam front end and only are found on steamDB",
     "main": "bot.js",
     "author": "s0rta, Marguerite",
-    "dependencies": {}
+    "dependencies": {
+        "discord.io": "^2.5.3",
+        "winston": "^3.3.3"
+    }
 }
