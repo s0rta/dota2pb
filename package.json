@@ -1,11 +1,24 @@
 {
-    "name": "dota2-peanut-butter",
-    "version": "0.0.1",
-    "description": "Bot to update players of dota 2 when patches are dropped, particularly ones that are not seen on the steam front end and only are found on steamDB",
-    "main": "bot.js",
-    "author": "s0rta, Marguerite",
-    "dependencies": {
-        "discord.io": "^2.5.3",
-        "winston": "^3.3.3"
-    }
+  "name": "dota2pb",
+  "version": "0.0.1",
+  "description": "fetches dota 2 patch notes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s0rta/dota2pb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s0rta/dota2pb/issues"
+  },
+  "homepage": "https://github.com/s0rta/dota2pb#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  }
 }

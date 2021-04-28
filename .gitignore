@@ -1,3 +1,2 @@
-auth.json
-secrets/*
+.env
 node_modules/*
